@@ -1,0 +1,145 @@
+html{
+    background-image: url(picture1.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    margin: 0px 0px 0px 0px;
+    
+}
+header{ 
+    display: flex;
+    background-image: linear-gradient(90deg, rgba(13, 30, 28, 1), rgba(63, 69, 45, 0.8));
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+}
+.company-name{
+    display: flex;
+}
+.name{
+    align-content: center;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+}
+.content > div{
+    align-content: center;
+    margin-right: 30px; 
+}
+.content > div > a {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+.content > div > a:hover{
+    font-weight: 600;
+}
+.search-bar{
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 30px 0 0;
+}
+.input{
+    align-content: center;
+    margin: 0 0 0 10px;
+    padding-right: 50px;
+}
+.input > input{
+    border: 0px;
+    width: 210px;   
+}
+.input > input::placeholder{
+    color:rgb(43, 88, 73);
+    font-size: 14px;
+}
+.input > i{
+    color: #047479;
+    text-align: center;
+}
+.button{
+    display: flex;
+}
+.button > div{
+    align-content: center;
+}
+#clear-btn{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#search-btn, #clear-btn{
+    width: 70px;
+    background-color: #047479;
+    color: white;
+    border-radius: 10px;   
+    border: none;
+    padding: 8px;
+}
+#search-btn:hover, #clear-btn:hover{
+    background-color: #035559;
+}
+
+/* thực hiện style cho phần body */
+#body{
+    display: flex;
+    background-image: linear-gradient(90deg, rgba(4, 116, 121, 0.8), rgba(255,255,255,0));
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 48px;
+}
+.social{
+    padding: 0 10px 0 10px; 
+    margin-left: 10px;
+}
+.line{
+    width: 3px;
+    height: 250px;
+    background-color: white;
+    margin: 100px 0 50px 30%;    
+}
+.social-icon > div{
+    margin-bottom: 15px;
+}
+.social-icon > div > a{
+    color: white;
+    font-size: 25px;
+}
+.title{
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+.sub-title{
+    color: white;
+    font-size: 70px;
+    font-family: "Roboto";
+    font-weight: 1000;
+}
+.description{
+    margin-left: 70px;
+    margin-bottom: 40px;
+    width: 300px;
+    color: white;
+    font-family: "Roboto";
+}
+.submit{
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+.book{
+    background-color: rgb(1, 117, 123);
+    color: white;
+    font-family: "Roboto";
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.book:hover{
+    background-color: rgb(1, 87, 92);
+}
