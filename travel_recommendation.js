@@ -10,6 +10,9 @@ fetch(fetchApi)
         //clear the result (beaches, countries, and temples) when you click "clear" button
         clearTheResults()
     })
+    .catch((err) => {
+        console.log("There is an " + err)
+    })
 
 //some methods
 //clear results function
